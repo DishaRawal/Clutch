@@ -1,8 +1,10 @@
-<h2 align="center">Clutch - eSports Gaming Website</h2>
+<h1 align="center">Clutch - eSports Gaming Website</h1>
 
-  Unigine is a fully responsive esports gaming website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
+  Clutch is a fully responsive esports gaming website, <br />Responsive for all devices, build using HTML, CSS, JavaScript, Node and Express.
+  <br />It is a full stack project with Login-Sign up Authentication and a Database managing all the infos of users 
+  <br /> using Mongodb Software.
 
-  <a href="https://codewithsadee.github.io/unigine/"><strong>➥ Live Demo</strong></a>
+  <a href="https://drive.google.com/file/d/1SVDIiMAaQmKjGyExLLkCK-LfzR-Sdg-h/view?usp=sharing"><strong>➥ Live Demo</strong></a>
 
 </div>
 
@@ -10,7 +12,8 @@
 
 ### Demo Screeshots
 
-![Unigine Desktop Demo](./readme-images/desktop.png "Desktop Demo")
+![Unigine Desktop Demo](./ss1.png "Desktop Demo")
+![Unigine Desktop Demo](./ss2.png "Desktop Demo")
 
 
 
