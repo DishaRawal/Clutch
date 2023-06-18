@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+°{
+/*
+margin: 0;
+padding: 0;
+padding-top: 20px;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+*/
+}
+body{
+/* background: rgb(16, 0, 31); */
+background-color: #000;
+/*overflow: hidden;*/
+/* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP_O9RKOTHkME9V3XlYBL7EMqEYO4tuEXQ-Q&usqp=CAU'); */
+/* background-image: url('mobibg.png');
+background-size: cover; */
+
+
+}
+/* Home Banner */
+.banner{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .bg{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    }
+    .banner .bg .content{
+    width: 40%;
+    height: 100%;
+    margin-top: 30px;
+    }
+    .banner .bg .content h2{
+    font-size: 4em;
+    color: #fff;
+    Letter-spacing: 1px;
+    }
+    .banner .bg .content p{
+    font-size: 1em;
+    color: #dbd9d9;
+    Letter-spacing: 1px;
+    }
+    .banner .bg .content a{
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 20px 0;
+        border: 1px solid #1aeeef;
+        text-decoration: none;
+        font-weight: 700;
+        border-radius: 5px;
+        color: #fff;
+        Letter-spacing: 1px;
+        }
+     .banner .bg .content a:hover{
+            background: #1aeeef;
+            border: none;
+            color: #050e2d;
+            box-shadow: 0 0 10px #1aeeef;
+            }
+            .banner .bg img{
+            width: 450px;
+            padding-left: 20px;
+            }
+        

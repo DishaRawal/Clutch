@@ -1,0 +1,230 @@
+body{
+margin: 0;
+padding: 0;
+font-family:poppins;
+background-image: url('jinxbg.jpg');
+-webkit-background-size: cover;
+background-size: cover;
+}I
+
+input {
+    
+  }
+
+  input, select, textarea{
+    color: #beb1c6;
+    font-size: medium;
+}
+  
+.wrapper{
+background-color: rgba(0,0,0,0.5);
+width: 800px;
+height: 500px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform:translate(-50%,-50%);
+}
+.wrapper:before{
+    content: '';
+    width: 350px;
+    height: 500px;
+    /* background-color: rgba(0,0,0,0.5); */
+    position: absolute;
+}
+.header-area{
+  background-color: rgba(0,0,0.5,0);
+}
+
+.header-area h2{
+    position: absolute;
+    top:20%;
+    left:25%;
+    transform: translate(-50%,-50%);
+    width: 20%;
+    border: 12px inset #52595d;
+    text-align:center;
+    color: #1aeeef;
+    /* color: #566d7e; */
+    /* text-shadow: #262626; */
+    font-size: 30px;
+}
+.form-area .terms{
+    /* position: absolute;
+    top:78.5%;
+    left:34%;
+    transform: translate(-50%, -50%); */
+    color: #fff;
+    
+
+    float:right;
+    margin: 20px ;
+    font: size 15px;
+    padding-right: 50px;
+}
+
+.header-area .sub{
+    position: absolute;
+    top:50%;
+    left:26%;
+    transform: translate(-50%, -50%);
+    /* color: #566d7e; */
+    color: #1aeeef;
+    font-size: 20px;
+}
+
+.social-area{
+    position: absolute;
+    top:70%;
+    left:25%;
+    transform: translate(-50%,-50%);
+}
+
+.social-area i{
+    width:30px;
+    height:30px;
+    padding: 5px;
+    margin: 0 2px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    color: #fff;
+    font-size: 30px;
+}
+
+.social-area i:nth-child(1){
+    background: #ea4c89
+}
+.social-area i:nth-child(2){
+    background: #0077b5
+}
+.social-area i:nth-child(3){
+    background: #bd081c
+}
+.social-area i:nth-child(4){
+    background: #55acee
+}
+.form-area{
+    position: absolute;
+    top:50%;
+    left:70%;
+    transform: translate(-50%, -50%);
+    width:350px;
+    overflow: hidden;
+    /* background-color: rgba(0,0,0,0.5); */
+    padding: 20px;
+}
+.form-area input{
+    outline: none;
+    padding: 0 0 0 35px;
+    border:1px solid rgba(0,0,0,0);
+    border-bottom-color: #262626;
+    background: transparent;
+      width:100%;
+      height: 50px;
+      margin-bottom: 10px;
+}
+.form-area i{
+    width: 20px;
+    position:absolute;
+    margin-top: 15px;
+
+}
+.form-area input[type=checkbox]{
+    margin: 20px 0 0 2px;
+    padding: 0;
+    border: 2px solid #262626;
+    width: 15px;
+    height: 15px;
+    -webkit-appearance: none;
+    background-color: #fff;
+    outline:none;
+}
+input:checked[type=checkbox]{
+
+    background: #1aeeef;
+    border: none;
+    color: #050e2d;
+    box-shadow: 0 0 10px #1aeeef;
+   
+/* 
+    background-color: #865dc4;
+    border:none; */
+}
+.terms{
+    float:right;
+    margin: right 75px;
+    font: size 15px;
+}
+.form-area input[type=submit]{
+    /* width:100%;
+    border:none;
+    background-color: #262626;
+    color:#fff;
+    cursor: pointer;
+    padding: 0;
+    margin-top: 20px; */
+
+    display: inline-block;
+        padding: 10px 20px;
+        margin: 20px 0;
+        border: 1px solid #1aeeef;
+        text-decoration: none;
+        font-weight: 900;
+        border-radius: 5px;
+        color: #fff;
+        Letter-spacing: 1px;
+        font-size: 15px;
+}
+
+.form-area input[type=submit]:hover{
+    background: #1aeeef;
+    border: none;
+    color: #050e2d;
+    box-shadow: 0 0 4px #1aeeef;
+   
+}
+
+
+
+/* LOGIN CSS */
+
+.form-area .change{
+    color: #fff;
+    float:left;
+    margin: 20px ;
+    font: size 15px;
+    padding-right: 50px;
+}
+
+.form-area a{
+    color: #fff;
+    float:right;
+    margin: 20px ;
+    font: size 12px;
+    text-decoration: none;
+}
+
+.form-area .bt:hover{
+  color: #1aeeef;
+  font-weight: bold;
+}
+
+.bt:after{
+        content: '';
+        position: absolute;
+        width: 50%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 10%;
+        left: 70%;
+        background-color: #1aeeef;
+        box-shadow: 0 0 4px;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+        font-weight: bold;
+    }
+      
+      .bt:hover:after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    
+      }
